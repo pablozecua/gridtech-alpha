@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #35CDA7;
+  --primary-color: #5ccea7;
   --secondary-color: #418DFF;
   --light-color: #fff;
   --dark-color: #1F1F1F;
@@ -31,7 +31,6 @@ body {
 a {
   color: var(--light-color);
   text-decoration: none;
-  font-weight: bold;
 }
 
 ul {
@@ -40,7 +39,6 @@ ul {
 
 p {
   margin: .5rem 0;
-  font-weight: bold;
 }
 
 img {
@@ -48,7 +46,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Staatliches', cursive;
+  font-family: 'Oswald', sans-serif;
   margin-bottom: .55rem;
   line-height: 1.3;
 }
