@@ -121,8 +121,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .list li {
   padding: 0.5rem 0;
-  border-bottom: #555 dotted 1px;
+  border-bottom: #666 dotted 1px;
   width: 90%;
+}
+
+.list li a:hover {
+  color: var(--primary-color);
 }
 
 /* Navigation */
@@ -135,8 +139,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-nav .container {
   display: grid;
-  grid-template-columns: 6fr 3fr 2fr;
-  padding: 1rem;
+  grid-template-columns: 2fr 1fr;
+  /* padding: 1rem; */
   align-items: center;
 }
 
@@ -247,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 1 / span 4;
   padding: .5rem;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 #main-footer .footer-container input[type='email'] {
@@ -278,10 +282,17 @@ h1, h2, h3, h4, h5, h6 {
 #main-footer .footer-container .site-links {
   justify-content: space-around;
 }
+#main-footer .footer-container .site-links a { 
+  font-size: 0.9rem;
+  color: #666;
+}
 
 #main-footer .footer-container .social-icons h2,
 #main-footer .footer-container .social-icons div a {
   padding: 0 0.6rem;
+}
+#main-footer .footer-container .social-icons h2 {
+  margin-top: 0.4rem;
 }
 
 #main-footer .footer-container .social-icons a:hover {
