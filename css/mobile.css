@@ -2,7 +2,11 @@
 
 #main-nav .container {
   grid-template-columns: 1fr;
-  grid-gap: 1.2rem;
+}
+
+#main-nav .logo {
+  height: 31.5px;
+  width: 135px;
 }
 
 #main-nav ul,
@@ -11,7 +15,7 @@
 }
 
 #main-nav ul li a {
-  padding: 0.50rem;
+  padding: 0.2rem 0.4rem;
 }
 
 #home-articles .articles-container {
