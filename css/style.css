@@ -246,6 +246,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.4rem;
 }
 
+/* Categories cards */
+#category-cards .category-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+#category-cards .category-container .card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color-banner);
